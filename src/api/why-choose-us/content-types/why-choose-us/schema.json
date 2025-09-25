@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "why_choose_uses",
+  "info": {
+    "singularName": "why-choose-us",
+    "pluralName": "why-choose-uses",
+    "displayName": "WhyChooseUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

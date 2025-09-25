@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_cards",
+  "info": {
+    "singularName": "about-card",
+    "pluralName": "about-cards",
+    "displayName": "AboutCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

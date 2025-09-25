@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visions",
+  "info": {
+    "singularName": "vision",
+    "pluralName": "visions",
+    "displayName": "Vision"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
