@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landings",
+  "info": {
+    "singularName": "landing",
+    "pluralName": "landings",
+    "displayName": "landingPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactLink": {
+      "type": "string"
+    },
+    "logoWhite": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logoDark": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "home": {
+      "type": "component",
+      "component": "web-section.section",
+      "repeatable": false
+    },
+    "about": {
+      "type": "component",
+      "component": "web-section.section",
+      "repeatable": false
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "component": "web-section.section",
+      "repeatable": false
+    },
+    "whatWeOffer": {
+      "type": "component",
+      "component": "web-section.section",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "web-section.section",
+      "repeatable": false
+    },
+    "contact": {
+      "type": "component",
+      "component": "web-section.section",
+      "repeatable": false
+    }
+  }
+}

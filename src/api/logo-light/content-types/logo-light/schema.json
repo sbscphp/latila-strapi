@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logo_lights",
+  "info": {
+    "singularName": "logo-light",
+    "pluralName": "logo-lights",
+    "displayName": "logo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
